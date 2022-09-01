@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background-color: aquamarine;
+}
+.div1{
+    position: relative;
+    background-color: black;
+    padding: 10px;
+    height: 90vh;
+    width: 80vw;
+    display: inline-block;
+}
+.class1{
+    display: inline-block;
+    width:20vw;
+    height: 60vh;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+#box1{
+    background-color: silver;
+   position: relative;
+   left:200px;
+   top: 100px;
+}
+#box2{
+    background-color: gold;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    
+}
+#box3{
+    background-color: violet;
+} 
+#fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+}  
+.img1{
+    width: 70px
+
+}
+.img2{
+    position: sticky;
+    top: 50%;
+}
+#navbar{
+    background-color:red;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+a{
+    color:antiquewhite;
+    text-decoration: none;
+    font-weight: 20px;
+    font-size: 20px;
+}
+#box4{
+    width: 60vw;
+}
+/* mouse over link */
+a:hover{
+    background-color: aqua;
+    color: red;
+    font-weight: 10px;
+}
+/* visited link */
+a:visited{
+    color: grey;
+    background-color: gold;
+}
+/* first child */
+#box1 h1:first-child{color: red;
+    background-color: bisque;
+}
+#box1 h1:last-child{
+    color:blueviolet
+}
+#box1 h1:nth-child(3){
+    color:brown;
+    background-color: bisque;
+}
+#box1 p::first-letter{
+    text-transform: capitalize;
+    color:red;
+    background-color: bisque;
+}
+#box1 p::selection{
+    background-color: greenyellow;
+}

@@ -1,0 +1,35 @@
+*{margin: 0%;
+box-sizing: border-box;}
+body{background-color: aquamarine;
+}
+h1{font-size: 2em;}
+#box1{background-color: aqua;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 1em;
+    width: 400px;
+    }
+#box2{background-color: aqua;
+      border: 2px solid green;
+      padding: 10px;
+      margin: 1em;
+      width: 400px;
+      height: 30vh;
+    }
+    #heading1{background-color: red;
+      width: 50%;  
+    }
+     #box3
+     {
+        background-color: aqua;
+        border:2px solid green;
+        margin: 1em;
+        height: 60vh;
+        width: 40%;
+
+     }
+     #heading2{
+        background-color: red;
+        width:60vw;
+        height: 50vh
+     }

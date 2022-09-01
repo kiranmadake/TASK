@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+#boxes{
+    background-color: bisque;
+     border: 2px solid black;
+     width: 70vw;
+     height: 80vh;
+     display: flex;
+     flex-wrap: wrap;
+
+}
+#box7{
+    display: flex;
+    flex-grow: 4;
+}
+#box5{
+    display: flex;
+    flex-grow: 2;
+}
+#box6
+{
+    display: flex;
+   flex-shrink: 1; 
+}
+.box{
+    background-color: red;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+    font-size: 40px;
+}
+h1{
+    font-size: 90px;
+}
+@media only screen and (max-width: 400px)
+ {
+    #media{
+        background-color: greenyellow;
+        font-size: 20px;
+          
+         }
+         #h1{
+            font-size: 40px;
+         }
+ }
+ @media only screen and (min-width: 401px) and (max-width: 550px)
+ {
+    #media{
+        background-color: rgb(255, 47, 161);
+        font-size: 30px;
+          
+         }
+         #h1{
+            font-size:50px;
+         }
+ }
+ 

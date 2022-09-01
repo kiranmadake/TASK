@@ -1,0 +1,33 @@
+body{background-color: rgb(233, 19, 179);}
+#box1{color: black; 
+    background-color: aqua;
+    border: 1px dashed rgb(226, 12, 12);
+    padding: 20px;
+    text-align: center;
+}
+#box2{
+    position: relative;
+    color: black; 
+    background-color: rgb(235, 82, 12);
+    border: 1px dashed rgb(226, 12, 12);
+    padding: 20px;
+    text-align: left;
+    margin-top: -40px;
+    z-index: box2;
+    width: 50%;
+}
+a{text-decoration: none;
+ background-color: aqua;
+ padding: 10px;
+ border: black; border-radius: 10px;
+ margin-left: 50px;
+}
+ol{ font-style: italic;
+    background-color: brown;
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: underline;
+  }
+  li{padding:10px}
